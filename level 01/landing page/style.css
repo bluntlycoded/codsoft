@@ -1,0 +1,120 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+}
+
+header {
+    background: midnightblue;
+    color: white;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+    color: #f1c40f;
+}
+
+.contact-info p {
+    margin: 5px 0;
+    color: white;
+}
+
+.hero {
+    background: url('https://torontofangirl.home.blog/wp-content/uploads/2019/05/p1150415.jpeg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.hero button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    background: black;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.hero button:hover {
+    background: #f1c40f;
+    color: black;
+}
+
+.features, .about, .services, footer {
+    padding: 50px 0;
+}
+
+.feature, .service {
+    text-align: center;
+    margin: 20px;
+}
+
+footer {
+    background: midnightblue;
+    color: white;
+    border-top: 1px solid #ddd;
+}
+
+footer p {
+    text-align: center;
+    margin: 0;
+}
+
+.social-media {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.social-media a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.social-media a:hover {
+    color: #f1c40f;
+}
